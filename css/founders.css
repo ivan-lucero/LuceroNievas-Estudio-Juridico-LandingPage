@@ -1,0 +1,122 @@
+
+.founders{
+    padding-top: 50px;
+    background-color: var(--white);
+}
+.founder__name{
+    margin-top: 0;
+    text-align: center;
+    font-size: 20px;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+.founder__subtitle{
+    margin-bottom: 35px;
+    color: var(--blue);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+.founder__subtitle::before{
+    content: "_";
+    color: var(--orange);
+    font-size: 40px;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    left: 0;
+    margin-top: 2px;
+}
+.founder__description{
+    position: relative;
+    color: var(--darkblue);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.founder__text{
+    font-size: 14px;
+}
+.founder__text:last-of-type{
+    margin-bottom: 35px;
+}
+.founder__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.founder__social{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.founder__icon{
+    color: var(--darkblue);
+}
+.founder__icon .fab{
+    font-size: 26px;
+}
+.founder__icon:visited{
+    color: var(--darkblue);
+}
+.title__founders{
+    margin-bottom: 50px;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .title__founders{
+        margin-top: 40px;
+        margin-bottom: 75px;
+    }
+    .founder{
+        display: flex;
+        justify-content: center;
+    }
+    .founder:last-child{
+        flex-direction: row-reverse;
+    }
+    .founders__img{
+        max-width: 50%;
+    }
+    .founder__description{
+        text-align: left;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+    .founder__name{
+        text-align: left;
+        font-size: 28px;
+    }
+    .founder__subtitle{
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .founder__subtitle::before{
+        left: 50px;
+        right: auto;
+        margin-top: -5px;
+    }
+    .founder__text{
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 400;
+    }
+    
+    .founder:last-of-type .founder__name{
+        text-align: right;
+    }
+    .founder:last-of-type .founder__subtitle{
+        text-align: right;
+    }
+    .founder:last-of-type .founder__subtitle::before{
+        right: 50px;
+    }
+    .founder:last-of-type .founder__bottom{
+        flex-direction: row-reverse;
+    }
+}
