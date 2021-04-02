@@ -1,5 +1,7 @@
 # Lucero & Nievas Estudio Juridico
-Este es mi primer proyecto web. En este proyecto realicé:
+Este es mi primer proyecto web. 
+
+##En este proyecto realicé:
 
 - Diseño de logos **(Adobe Illustrator)**
 - Diseño de la web **(Adobe XD)**
