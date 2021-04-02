@@ -7,4 +7,4 @@ Este es mi primer proyecto web.
 - Diseño de la web **(Adobe XD)**
 - Edición de imagenes aplicadas en la web **(Adobe Photoshop)**
 - Maquetación **(HTML y CSS)**
-- Validación de formulario **(Javascript)**
+- Validación de formulario y menu desplegable **(Javascript)**
